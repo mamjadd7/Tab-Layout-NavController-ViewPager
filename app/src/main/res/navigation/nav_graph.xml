@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/videoFragment">
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.taskthreetabwithviewpager.fragments.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" >
+        <action
+            android:id="@+id/action_videoFragment_to_folderFragment"
+            app:destination="@id/folderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/folderFragment"
+        android:name="com.example.taskthreetabwithviewpager.fragments.FolderFragment"
+        android:label="fragment_folder"
+        tools:layout="@layout/fragment_folder" />
+</navigation>

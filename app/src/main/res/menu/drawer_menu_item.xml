@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemImages"
+        android:title="Images"
+        />
+
+    <item
+        android:id="@+id/itemVideos"
+        android:title="Videos"
+        />
+
+    <item
+        android:id="@+id/itemMedia"
+        android:title="Media"
+        />
+
+
+    <item
+        android:id="@+id/itemShare"
+        android:title="Share"
+        android:icon="@drawable/share_icon"/>
+
+    <item
+        android:id="@+id/itemExit"
+        android:title="Exit"
+        android:icon="@drawable/exit_icon"/>
+</menu>
